@@ -63,7 +63,7 @@ export default function AddHardwareWalletDialog({ open, onAdd, onClose }) {
             </>
           ) : (
             <>
-              <b>Connect your ledger and open the Solana application</b>
+              <b>Connect your ledger and open the SafeCoin application</b>
               <CircularProgress />
             </>
           )}
