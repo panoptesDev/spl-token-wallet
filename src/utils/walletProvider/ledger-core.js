@@ -1,4 +1,4 @@
-import { PublicKey } from '@solana/web3.js';
+import { PublicKey } from '@safecoin/web3.js';
 const bs58 = require('bs58');
 
 const INS_GET_PUBKEY = 0x05;
