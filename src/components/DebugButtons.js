@@ -5,7 +5,7 @@ import {
 } from '../utils/wallet';
 import { useUpdateTokenName } from '../utils/tokens/names';
 import { useCallAsync, useSendTransaction } from '../utils/notifications';
-import { Account, LAMPORTS_PER_SOL } from '@safecoin/web3.js';
+import { Account, LAMPORTS_PER_SAFE } from '@safecoin/web3.js';
 import { abbreviateAddress, sleep } from '../utils/utils';
 import {
   refreshAccountInfo,
