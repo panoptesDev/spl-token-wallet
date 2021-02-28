@@ -1,4 +1,4 @@
-# SafeCoin and SafeCoin Token Wallet
+# SafeCoin and SafeCoin Token Wallet - BETA
 
 Example SafeCoin wallet, from Solana wallet with support for [SPL tokens](https://spl.solana.com/token) and Serum integration.
 
