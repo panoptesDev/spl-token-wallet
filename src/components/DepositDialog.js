@@ -109,7 +109,7 @@ export default function DepositDialog({
                 target="_blank"
                 rel="noopener"
               >
-                View on Solana Explorer
+                View on SafeCoin Explorer
               </Link>
             </DialogContentText>
           </>
@@ -158,7 +158,7 @@ function SolletSwapDepositAddress({ balanceInfo, swapInfo }) {
         <DialogContentText>
           {coin.erc20Contract ? 'ERC20' : 'Native'} {coin.ticker} can be
           converted to {mint ? 'SPL' : 'native'} {tokenName} via MetaMask. To
-          convert, you must already have SOL in your wallet.
+          convert, you must already have SAFE in your wallet.
         </DialogContentText>
         <MetamaskDeposit swapInfo={swapInfo} />
       </>
