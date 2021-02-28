@@ -342,7 +342,7 @@ function BalanceListItemDetails({ publicKey, serumMarkets, balanceInfo }) {
 
   // Only show the export UI for the native SOL coin.
   const exportNeedsDisplay =
-    mint === null && tokenName === 'SOL' && tokenSymbol === 'SOL';
+    mint === null && tokenName === 'SAFE' && tokenSymbol === 'SAFE';
 
   const market = tokenSymbol
     ? serumMarkets[tokenSymbol.toUpperCase()]
