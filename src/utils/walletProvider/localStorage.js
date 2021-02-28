@@ -1,7 +1,7 @@
 import { getUnlockedMnemonicAndSeed } from './../wallet-seed';
 import * as bip32 from 'bip32';
 import nacl from 'tweetnacl';
-import { Account } from '@solana/web3.js';
+import { Account } from '@safecoin/web3.js';
 import bs58 from 'bs58';
 import { derivePath } from 'ed25519-hd-key';
 
@@ -27,10 +27,10 @@ function deriveSeed(seed, walletIndex, derivationPath, accountIndex) {
       const path = `m/501'/${walletIndex}'/0/${accountIndex}`;
       return bip32.fromSeed(seed).derivePath(path).privateKey;
     case DERIVATION_PATH.bip44:
-      const path44 = `m/44'/501'/${walletIndex}'`;
+      const path44 = `m/44'/19165'/${walletIndex}'`;
       return derivePath(path44, seed).key;
     case DERIVATION_PATH.bip44Change:
-      const path44Change = `m/44'/501'/${walletIndex}'/0'`;
+      const path44Change = `m/44'/19165'/${walletIndex}'/0'`;
       return derivePath(path44Change, seed).key;
     default:
       throw new Error(`invalid derivation path: ${derivationPath}`);
