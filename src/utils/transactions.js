@@ -11,7 +11,7 @@ import {
   NEW_ORDER_OPEN_ORDERS_INDEX,
   NEW_ORDER_OWNER_INDEX,
 } from '@project-serum/serum';
-import { PublicKey } from '@solana/web3.js';
+import { PublicKey } from '@safecoin/web3.js';
 import { TOKEN_PROGRAM_ID } from './tokens/instructions';
 
 const RAYDIUM_STAKE_PROGRAM_ID = new PublicKey('EhhTKczWMGQt46ynNeRX1WfeagwwJd7ufHvCDjRxjo5Q');
