@@ -68,7 +68,7 @@ export default function DebugButtons() {
         title={
           requestAirdropDisabled
             ? 'Receive some devnet SAFE for free. Only enabled on the devnet'
-            : 'Receive some devnet SAFE for free'
+            : 'Receive some devnet SAFE for free.'
         }
       >
         <span>
