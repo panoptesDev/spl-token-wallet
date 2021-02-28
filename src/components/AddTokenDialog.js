@@ -10,7 +10,7 @@ import {
   useWallet,
   useWalletTokenAccounts,
 } from '../utils/wallet';
-import { LAMPORTS_PER_SOL, PublicKey } from '@safecoin/web3.js';
+import { LAMPORTS_PER_SAFE, PublicKey } from '@safecoin/web3.js';
 import { TOKENS, useUpdateTokenName } from '../utils/tokens/names';
 import { useAsyncData } from '../utils/fetch-loop';
 import LoadingIndicator from './LoadingIndicator';
