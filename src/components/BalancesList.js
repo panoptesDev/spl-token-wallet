@@ -417,13 +417,13 @@ function BalanceListItemDetails({ publicKey, serumMarkets, balanceInfo }) {
             <Typography variant="body2">
               <Link
                 href={
-                  `https://explorer.solana.com/account/${publicKey.toBase58()}` +
+                  `https://explorer.safecoins.org/account/${publicKey.toBase58()}` +
                   urlSuffix
                 }
                 target="_blank"
                 rel="noopener"
               >
-                View on Solana
+                View on SafeCoin
               </Link>
             </Typography>
             {market && (
