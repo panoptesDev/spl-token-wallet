@@ -147,8 +147,8 @@ export default function SendDialog({ open, onClose, publicKey, balanceInfo }) {
 function SendSplDialog({ onClose, publicKey, balanceInfo, onSubmitRef }) {
   const defaultAddressHelperText =
     !balanceInfo.mint || balanceInfo.mint.equals(WRAPPED_SOL_MINT)
-      ? 'Enter Solana Address'
-      : 'Enter SPL token or Solana address';
+      ? 'Enter SafeCoin Address'
+      : 'Enter SafeCoin token or SafeCoin address';
   const wallet = useWallet();
   const [sendTransaction, sending] = useSendTransaction();
   const [addressHelperText, setAddressHelperText] = useState(
@@ -186,14 +186,14 @@ function SendSplDialog({ onClose, publicKey, balanceInfo, onSubmitRef }) {
           );
           if (accountInfo.mint.toBase58() === mintString) {
             setPassValidation(true);
-            setAddressHelperText('Address is a valid SPL token address');
+            setAddressHelperText('Address is a valid SafeCoin token address');
           } else {
             setPassValidation(false);
             setAddressHelperText('Destination address mint does not match');
           }
         } else {
           setPassValidation(true);
-          setAddressHelperText('Destination is a Solana address');
+          setAddressHelperText('Destination is a SafeCoin address');
         }
       } catch (e) {
         console.log(`Received error validating address ${e}`);
