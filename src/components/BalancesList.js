@@ -429,11 +429,11 @@ function BalanceListItemDetails({ publicKey, serumMarkets, balanceInfo }) {
             {market && (
               <Typography variant="body2">
                 <Link
-                  href={`https://dex.projectserum.com/#/market/${market}`}
+                  href={`https://beta.safeswap.org/#/market/${market}`}
                   target="_blank"
                   rel="noopener"
                 >
-                  View on Serum
+                  View on SafeSwap
                 </Link>
               </Typography>
             )}
