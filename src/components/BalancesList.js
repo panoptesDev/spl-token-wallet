@@ -321,7 +321,7 @@ function BalanceListItemDetails({ publicKey, serumMarkets, balanceInfo }) {
       'POST',
       'swap_to',
       {
-        blockchain: 'sol',
+        blockchain: 'safe',
         coin: balanceInfo.mint?.toBase58(),
         address: publicKey.toBase58(),
       },
