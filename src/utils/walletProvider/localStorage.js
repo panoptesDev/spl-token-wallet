@@ -24,7 +24,7 @@ export function getAccountFromSeed(
 function deriveSeed(seed, walletIndex, derivationPath, accountIndex) {
   switch (derivationPath) {
     case DERIVATION_PATH.deprecated:
-      const path = `m/501'/${walletIndex}'/0/${accountIndex}`;
+      const path = `m/19165'/${walletIndex}'/0/${accountIndex}`;
       return bip32.fromSeed(seed).derivePath(path).privateKey;
     case DERIVATION_PATH.bip44:
       const path44 = `m/44'/19165'/${walletIndex}'`;
