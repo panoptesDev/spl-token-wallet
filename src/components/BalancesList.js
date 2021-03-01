@@ -110,16 +110,16 @@ export default function BalancesList() {
                 </IconButton>
               </Tooltip>
             )}
-          <Tooltip title="Merge Accounts" arrow>
-            <IconButton onClick={() => setShowMergeAccounts(true)}>
-              <MergeType />
-            </IconButton>
-          </Tooltip>
-          <Tooltip title="Add Token" arrow>
-            <IconButton onClick={() => setShowAddTokenDialog(true)}>
-              <AddIcon />
-            </IconButton>
-          </Tooltip>
+//          <Tooltip title="Merge Accounts" arrow>
+//            <IconButton onClick={() => setShowMergeAccounts(true)}>
+//              <MergeType />
+//            </IconButton>
+//          </Tooltip>
+//          <Tooltip title="Add Token" arrow>
+//            <IconButton onClick={() => setShowAddTokenDialog(true)}>
+//              <AddIcon />
+//            </IconButton>
+//          </Tooltip>
           <Tooltip title="Refresh" arrow>
             <IconButton
               onClick={() => {
