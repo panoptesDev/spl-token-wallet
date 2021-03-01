@@ -116,8 +116,7 @@ export default function BalancesList() {
             </IconButton>
           </Tooltip>
           <Tooltip title="Add Token" arrow>
-//  Set this value back to true when we are ready to add tokens
-            <IconButton onClick={() => setShowAddTokenDialog(false)}>
+            <IconButton onClick={() => setShowAddTokenDialog(true)}>
               <AddIcon />
             </IconButton>
           </Tooltip>
