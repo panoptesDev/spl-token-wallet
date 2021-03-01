@@ -1,8 +1,8 @@
 # SafeCoin and SafeCoin Token Wallet - BETA
 
-Example SafeCoin wallet, from Solana wallet with support for [SPL tokens](https://spl.solana.com/token) and Serum integration.
+Example SafeCoin wallet, from Solana wallet with support for SafeCoin Tokens (coming soon) and SafeSwap integration.
 
-See [sollet.io](https://www.sollet.io) for a demo.
+See [wallet.safecoins.org](https://wallet.safecoins.org) for a demo for use on the SafeCoin ecosystem. See [sollet.io](https://www.sollet.io) for a demo for use on the Solana ecosystem.
 
 Wallet keys are stored in `localStorage`, optionally encrypted by a password.
 
