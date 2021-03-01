@@ -4,7 +4,7 @@ import {
   clusterApiUrl,
   Connection,
   PublicKey,
-} from '@solana/web3.js';
+} from '@safecoin/web3.js';
 import tuple from 'immutable-tuple';
 import { struct } from 'superstruct';
 import assert from 'assert';
@@ -17,7 +17,7 @@ const ConnectionContext = React.createContext<{
   connection: Connection;
 } | null>(null);
 
-export const MAINNET_URL = 'https://solana-api.projectserum.com';
+export const MAINNET_URL = 'https://api.mainnet-beta.safecoin.org/';
 export function ConnectionProvider({ children }) {
   const [endpoint, setEndpoint] = useLocalStorageState(
     'connectionEndpoint',
