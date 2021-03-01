@@ -252,7 +252,7 @@ function TokenListItem({
                 target="_blank"
                 rel="noopener"
                 href={
-                  `https://explorer.solana.com/account/${mintAddress}` +
+                  `https://explorer.safecoins.org/account/${mintAddress}` +
                   urlSuffix
                 }
               >
