@@ -372,13 +372,13 @@ function DerivedAccounts({ goBack, mnemonic, seed, password }) {
               onChange={(e) => setDPathMenuItem(e.target.value)}
             >
               <MenuItem value={DerivationPathMenuItem.Bip44Change}>
-                {`m/44'/501'/0'/0'`}
+                {`m/44'/19165'/0'/0'`}
               </MenuItem>
               <MenuItem value={DerivationPathMenuItem.Bip44}>
-                {`m/44'/501'/0'`}
+                {`m/44'/19165'/0'`}
               </MenuItem>
               <MenuItem value={DerivationPathMenuItem.Deprecated}>
-                {`m/501'/0'/0/0 (deprecated)`}
+                {`m/19165'/0'/0/0 (deprecated)`}
               </MenuItem>
             </Select>
           </FormControl>
@@ -387,7 +387,7 @@ function DerivedAccounts({ goBack, mnemonic, seed, password }) {
           return (
             <Link
               href={
-                `https://explorer.solana.com/account/${acc.publicKey.toBase58()}` +
+                `https://explorer.safecoins.org/account/${acc.publicKey.toBase58()}` +
                 urlSuffix
               }
               target="_blank"
