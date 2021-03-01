@@ -84,13 +84,13 @@ export default function DepositDialog({
           <>
             {publicKey.equals(owner) ? (
               <DialogContentText>
-                This address can only be used to receive SOL. Do not send other
+                This address can only be used to receive SAFE. Do not send other
                 tokens to this address.
               </DialogContentText>
             ) : (
               <DialogContentText>
                 This address can only be used to receive{' '}
-                {tokenSymbol ?? abbreviateAddress(mint)}. Do not send SOL to
+                {tokenSymbol ?? abbreviateAddress(mint)}. Do not send SAFE to
                 this address.
               </DialogContentText>
             )}
