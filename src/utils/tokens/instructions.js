@@ -3,7 +3,7 @@ import {
   PublicKey,
   SYSVAR_RENT_PUBKEY,
   TransactionInstruction,
-} from '@solana/web3.js';
+} from '@safecoin/web3.js';
 import { publicKeyLayout } from '@project-serum/serum/lib/layout';
 
 export const TOKEN_PROGRAM_ID = new PublicKey(
