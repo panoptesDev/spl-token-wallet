@@ -10,7 +10,7 @@ export default function TokenIcon({ mint, url, tokenName, size = 20 }) {
   if (!url) {
     if (mint === null) {
       url =
-        'https://github.com/Fair-Exchange/safecoinwiki/blob/master/Logos/Safecoin_Logo_Small_Transparent.png';
+        'https://safecoin.me/images/Safecoin_Logo_Small_Transparent.png';
     } else {
       url = TOKENS?.[endpoint]?.find(
         (token) => token.mintAddress === mint?.toBase58(),
