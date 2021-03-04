@@ -1,5 +1,5 @@
 import bs58 from 'bs58';
-import { Message, SystemInstruction, SystemProgram } from '@solana/web3.js';
+import { Message, SystemInstruction, SystemProgram } from '@safecoin/web3.js';
 import {
   decodeInstruction,
   decodeTokenInstructionData,
