@@ -5,7 +5,7 @@ import {
   Account,
   TransactionInstruction,
   SYSVAR_RENT_PUBKEY,
-} from '@safecoin/web3.js';
+} from '@panoptis/web3.js';
 import { TokenInstructions } from '@project-serum/serum';
 import {
   assertOwner,

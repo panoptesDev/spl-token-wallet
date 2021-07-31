@@ -109,7 +109,7 @@ export default function DepositDialog({
                 target="_blank"
                 rel="noopener"
               >
-                View on SafeCoin Explorer
+                View on Panoptis Explorer
               </Link>
             </DialogContentText>
           </>

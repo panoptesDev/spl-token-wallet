@@ -7,7 +7,7 @@ import { useConnectionConfig, MAINNET_URL } from '../utils/connection';
 import Button from '@material-ui/core/Button';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
-import { clusterApiUrl } from '@safecoin/web3.js';
+import { clusterApiUrl } from '@panoptis/web3.js';
 import { useWalletSelector } from '../utils/wallet';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import CheckIcon from '@material-ui/icons/Check';
@@ -53,7 +53,7 @@ export default function NavigationFrame({ children }) {
       <AppBar position="static">
         <Toolbar>
           <Typography variant="h6" className={classes.title} component="h1">
-            SafeCoin and SafeCoin Token Wallet
+            Panoptis and Panoptis Token Wallet
           </Typography>
           <WalletSelector />
           <NetworkSelector />

@@ -50,7 +50,7 @@ export default function TokenInfoDialog({
             target="_blank"
             rel="noopener"
           >
-            View on SafeCoin Explorer
+            View on Panoptis Explorer
           </Link>
         </Typography>
         {!!mint && (

@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { Connection, PublicKey } from '@safecoin/web3.js';
+import { Connection, PublicKey } from '@panoptis/web3.js';
 
 export async function sleep(ms: number) {
   return new Promise((resolve) => setTimeout(resolve, ms));

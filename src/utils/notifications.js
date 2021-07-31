@@ -61,7 +61,7 @@ function ViewTransactionOnExplorerButton({ signature }) {
       rel="noopener"
       href={`https://explorer.panoptis.network/tx/${signature}` + urlSuffix}
     >
-      View on SafeCoin Explorer
+      View on Panoptis Explorer
     </Button>
   );
 }

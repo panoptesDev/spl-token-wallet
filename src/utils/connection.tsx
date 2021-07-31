@@ -4,7 +4,7 @@ import {
   clusterApiUrl,
   Connection,
   PublicKey,
-} from '@safecoin/web3.js';
+} from '@panoptis/web3.js';
 import tuple from 'immutable-tuple';
 import { struct } from 'superstruct';
 import assert from 'assert';

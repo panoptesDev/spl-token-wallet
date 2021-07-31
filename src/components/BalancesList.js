@@ -423,7 +423,7 @@ function BalanceListItemDetails({ publicKey, serumMarkets, balanceInfo }) {
                 target="_blank"
                 rel="noopener"
               >
-                View on SafeCoin
+                View on Panoptis
               </Link>
             </Typography>
             {market && (

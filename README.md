@@ -1,8 +1,8 @@
-# SafeCoin and SafeCoin Token Wallet - BETA
+# Panoptis and Panoptis Token Wallet - BETA
 
-Example SafeCoin wallet, from Solana wallet with support for SafeCoin Tokens (coming soon) and SafeSwap integration.
+Example Panoptis wallet, from Solana wallet with support for Panoptis Tokens (coming soon) and SafeSwap integration.
 
-See [wallet.panoptis.network](https://wallet.panoptis.network) for a demo for use on the SafeCoin ecosystem. See [sollet.io](https://www.sollet.io) for a demo for use on the Solana ecosystem.
+See [wallet.panoptis.network](https://wallet.panoptis.network) for a demo for use on the Panoptis ecosystem. See [sollet.io](https://www.sollet.io) for a demo for use on the Solana ecosystem.
 
 Wallet keys are stored in `localStorage`, optionally encrypted by a password.
 

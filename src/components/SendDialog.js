@@ -6,7 +6,7 @@ import DialogContent from '@material-ui/core/DialogContent';
 import TextField from '@material-ui/core/TextField';
 import DialogForm from './DialogForm';
 import { useWallet, useWalletAddressForMint } from '../utils/wallet';
-import { PublicKey } from '@safecoin/web3.js';
+import { PublicKey } from '@panoptis/web3.js';
 import { abbreviateAddress } from '../utils/utils';
 import InputAdornment from '@material-ui/core/InputAdornment';
 import { useCallAsync, useSendTransaction } from '../utils/notifications';
@@ -147,8 +147,8 @@ export default function SendDialog({ open, onClose, publicKey, balanceInfo }) {
 function SendSplDialog({ onClose, publicKey, balanceInfo, onSubmitRef }) {
   const defaultAddressHelperText =
     !balanceInfo.mint || balanceInfo.mint.equals(WRAPPED_SOL_MINT)
-      ? 'Enter SafeCoin Address'
-      : 'Enter SafeCoin token or SafeCoin address';
+      ? 'Enter Panoptis Address'
+      : 'Enter Panoptis token or Panoptis address';
   const wallet = useWallet();
   const [sendTransaction, sending] = useSendTransaction();
   const [addressHelperText, setAddressHelperText] = useState(
@@ -186,14 +186,14 @@ function SendSplDialog({ onClose, publicKey, balanceInfo, onSubmitRef }) {
           );
           if (accountInfo.mint.toBase58() === mintString) {
             setPassValidation(true);
-            setAddressHelperText('Address is a valid SafeCoin token address');
+            setAddressHelperText('Address is a valid Panoptis token address');
           } else {
             setPassValidation(false);
             setAddressHelperText('Destination address mint does not match');
           }
         } else {
           setPassValidation(true);
-          setAddressHelperText('Destination is a SafeCoin address');
+          setAddressHelperText('Destination is a Panoptis address');
         }
       } catch (e) {
         console.log(`Received error validating address ${e}`);
