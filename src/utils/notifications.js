@@ -59,7 +59,7 @@ function ViewTransactionOnExplorerButton({ signature }) {
       component="a"
       target="_blank"
       rel="noopener"
-      href={`https://explorer.safecoins.org/tx/${signature}` + urlSuffix}
+      href={`https://explorer.panoptis.network/tx/${signature}` + urlSuffix}
     >
       View on SafeCoin Explorer
     </Button>

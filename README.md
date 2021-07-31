@@ -2,7 +2,7 @@
 
 Example SafeCoin wallet, from Solana wallet with support for SafeCoin Tokens (coming soon) and SafeSwap integration.
 
-See [wallet.safecoins.org](https://wallet.safecoins.org) for a demo for use on the SafeCoin ecosystem. See [sollet.io](https://www.sollet.io) for a demo for use on the Solana ecosystem.
+See [wallet.panoptis.network](https://wallet.panoptis.network) for a demo for use on the SafeCoin ecosystem. See [sollet.io](https://www.sollet.io) for a demo for use on the Solana ecosystem.
 
 Wallet keys are stored in `localStorage`, optionally encrypted by a password.
 

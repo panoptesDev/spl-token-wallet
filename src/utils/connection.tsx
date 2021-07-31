@@ -17,7 +17,7 @@ const ConnectionContext = React.createContext<{
   connection: Connection;
 } | null>(null);
 
-export const MAINNET_URL = 'https://api.mainnet-beta.safecoin.org/';
+export const MAINNET_URL = 'https://api.mainnet-beta.panoptis.network/';
 export function ConnectionProvider({ children }) {
   const [endpoint, setEndpoint] = useLocalStorageState(
     'connectionEndpoint',

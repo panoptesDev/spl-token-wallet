@@ -44,7 +44,7 @@ export default function TokenInfoDialog({
         <Typography variant="body2" className={classes.explorerLink}>
           <Link
             href={
-              `https://explorer.safecoins.org/account/${publicKey.toBase58()}` +
+              `https://explorer.panoptis.network/account/${publicKey.toBase58()}` +
               urlSuffix
             }
             target="_blank"

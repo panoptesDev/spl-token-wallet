@@ -387,7 +387,7 @@ function DerivedAccounts({ goBack, mnemonic, seed, password }) {
           return (
             <Link
               href={
-                `https://explorer.safecoins.org/account/${acc.publicKey.toBase58()}` +
+                `https://explorer.panoptis.network/account/${acc.publicKey.toBase58()}` +
                 urlSuffix
               }
               target="_blank"

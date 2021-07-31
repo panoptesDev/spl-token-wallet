@@ -252,7 +252,7 @@ function TokenListItem({
                 target="_blank"
                 rel="noopener"
                 href={
-                  `https://explorer.safecoins.org/account/${mintAddress}` +
+                  `https://explorer.panoptis.network/account/${mintAddress}` +
                   urlSuffix
                 }
               >
